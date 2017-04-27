@@ -15,7 +15,7 @@ string reverseString(string input, int length)
         reversed += reverseString(input, length - 1);
     }
 
-    return "";
+    return reversed;
 }
 
 /*
